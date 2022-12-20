@@ -1,23 +1,20 @@
-import java.util.Scanner;
+public class Registro {
+        public static void main(String[] args) {
 
-public class New_project {
+            Scanner l = new Scanner(System.in);
 
-    // main method
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("REGISRATION OPTION");
-        System.out.println("-----------------------------------------");
-        System.out.println("1 - DOCTOR REGISTRATION \n 2 -PATIENT REGISTRATION ");
-        int n = input.nextInt();
+            System.out.println("BEM VINDO AO CADASTRO DE USUÁRIOS");
+            System.out.println("REGISRATION OPTION");
+            System.out.println("-----------------------------------------");
+            System.out.println("1 - DOCTOR REGISTRATION \n 2 -PATIENT REGISTRATION ");;
+            int n = input.nextInt()
 
-        if (n == 1) {
-            float p = cadmedico();
 
-        } else {
-            float p = cadpaciente();
-        }
+            if (n == 1) {
+                float p =getMedico;
 
-    }
+            } else {
+                float p =getPaciente
 
     // resgistration method
     public static void cadmedico() {
